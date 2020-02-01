@@ -9,3 +9,279 @@ Migrating to CreatePosts (20151230232412)
   [1m[35mSQL (0.2ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20151230232412"]]
   [1m[36m (1.3ms)[0m  [1mcommit transaction[0m
   [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+Started GET "/" for 127.0.0.1 at 2020-02-01 10:46:45 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by Rails::WelcomeController#index as HTML
+  Parameters: {"internal"=>true}
+  Rendering bundle/ruby/2.6.0/gems/railties-5.0.7.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered bundle/ruby/2.6.0/gems/railties-5.0.7.1/lib/rails/templates/rails/welcome/index.html.erb (4.4ms)
+Completed 200 OK in 45ms (Views: 12.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/index" for 127.0.0.1 at 2020-02-01 10:46:56 +0000
+  
+ActionController::RoutingError (No route matches [GET] "/index"):
+  
+bundle/ruby/2.6.0/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+bundle/ruby/2.6.0/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+bundle/ruby/2.6.0/gems/railties-5.0.7.1/lib/rails/rack/logger.rb:36:in `call_app'
+bundle/ruby/2.6.0/gems/railties-5.0.7.1/lib/rails/rack/logger.rb:24:in `block in call'
+bundle/ruby/2.6.0/gems/activesupport-5.0.7.1/lib/active_support/tagged_logging.rb:69:in `block in tagged'
+bundle/ruby/2.6.0/gems/activesupport-5.0.7.1/lib/active_support/tagged_logging.rb:26:in `tagged'
+bundle/ruby/2.6.0/gems/activesupport-5.0.7.1/lib/active_support/tagged_logging.rb:69:in `tagged'
+bundle/ruby/2.6.0/gems/railties-5.0.7.1/lib/rails/rack/logger.rb:24:in `call'
+bundle/ruby/2.6.0/gems/sprockets-rails-3.2.1/lib/sprockets/rails/quiet_assets.rb:13:in `call'
+bundle/ruby/2.6.0/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/request_id.rb:24:in `call'
+bundle/ruby/2.6.0/gems/rack-2.0.8/lib/rack/method_override.rb:22:in `call'
+bundle/ruby/2.6.0/gems/rack-2.0.8/lib/rack/runtime.rb:22:in `call'
+bundle/ruby/2.6.0/gems/activesupport-5.0.7.1/lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+bundle/ruby/2.6.0/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/executor.rb:12:in `call'
+bundle/ruby/2.6.0/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/static.rb:136:in `call'
+bundle/ruby/2.6.0/gems/rack-2.0.8/lib/rack/sendfile.rb:111:in `call'
+bundle/ruby/2.6.0/gems/railties-5.0.7.1/lib/rails/engine.rb:522:in `call'
+bundle/ruby/2.6.0/gems/rack-2.0.8/lib/rack/handler/webrick.rb:86:in `service'
+/usr/share/rvm/rubies/ruby-2.6.1/lib/ruby/2.6.0/webrick/httpserver.rb:140:in `service'
+/usr/share/rvm/rubies/ruby-2.6.1/lib/ruby/2.6.0/webrick/httpserver.rb:96:in `run'
+/usr/share/rvm/rubies/ruby-2.6.1/lib/ruby/2.6.0/webrick/server.rb:307:in `block in start_thread'
+  Rendering bundle/ruby/2.6.0/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering bundle/ruby/2.6.0/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered bundle/ruby/2.6.0/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (18.6ms)
+  Rendered collection of bundle/ruby/2.6.0/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb [2 times] (1.2ms)
+  Rendered bundle/ruby/2.6.0/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (51.3ms)
+  Rendering bundle/ruby/2.6.0/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered bundle/ruby/2.6.0/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered bundle/ruby/2.6.0/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (102.1ms)
+Started GET "/1" for 127.0.0.1 at 2020-02-01 10:47:03 +0000
+  
+ActionController::RoutingError (No route matches [GET] "/1"):
+  
+bundle/ruby/2.6.0/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+bundle/ruby/2.6.0/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+bundle/ruby/2.6.0/gems/railties-5.0.7.1/lib/rails/rack/logger.rb:36:in `call_app'
+bundle/ruby/2.6.0/gems/railties-5.0.7.1/lib/rails/rack/logger.rb:24:in `block in call'
+bundle/ruby/2.6.0/gems/activesupport-5.0.7.1/lib/active_support/tagged_logging.rb:69:in `block in tagged'
+bundle/ruby/2.6.0/gems/activesupport-5.0.7.1/lib/active_support/tagged_logging.rb:26:in `tagged'
+bundle/ruby/2.6.0/gems/activesupport-5.0.7.1/lib/active_support/tagged_logging.rb:69:in `tagged'
+bundle/ruby/2.6.0/gems/railties-5.0.7.1/lib/rails/rack/logger.rb:24:in `call'
+bundle/ruby/2.6.0/gems/sprockets-rails-3.2.1/lib/sprockets/rails/quiet_assets.rb:13:in `call'
+bundle/ruby/2.6.0/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/request_id.rb:24:in `call'
+bundle/ruby/2.6.0/gems/rack-2.0.8/lib/rack/method_override.rb:22:in `call'
+bundle/ruby/2.6.0/gems/rack-2.0.8/lib/rack/runtime.rb:22:in `call'
+bundle/ruby/2.6.0/gems/activesupport-5.0.7.1/lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+bundle/ruby/2.6.0/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/executor.rb:12:in `call'
+bundle/ruby/2.6.0/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/static.rb:136:in `call'
+bundle/ruby/2.6.0/gems/rack-2.0.8/lib/rack/sendfile.rb:111:in `call'
+bundle/ruby/2.6.0/gems/railties-5.0.7.1/lib/rails/engine.rb:522:in `call'
+bundle/ruby/2.6.0/gems/rack-2.0.8/lib/rack/handler/webrick.rb:86:in `service'
+/usr/share/rvm/rubies/ruby-2.6.1/lib/ruby/2.6.0/webrick/httpserver.rb:140:in `service'
+/usr/share/rvm/rubies/ruby-2.6.1/lib/ruby/2.6.0/webrick/httpserver.rb:96:in `run'
+/usr/share/rvm/rubies/ruby-2.6.1/lib/ruby/2.6.0/webrick/server.rb:307:in `block in start_thread'
+  Rendering bundle/ruby/2.6.0/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering bundle/ruby/2.6.0/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered bundle/ruby/2.6.0/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.3ms)
+  Rendered collection of bundle/ruby/2.6.0/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb [2 times] (2.4ms)
+  Rendered bundle/ruby/2.6.0/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.8ms)
+  Rendering bundle/ruby/2.6.0/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered bundle/ruby/2.6.0/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered bundle/ruby/2.6.0/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (26.6ms)
+Started GET "/posts/1" for 127.0.0.1 at 2020-02-01 10:47:09 +0000
+Processing by PostsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT  "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+Completed 404 Not Found in 6ms (ActiveRecord: 0.8ms)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Post with 'id'=1):
+  
+app/controllers/posts_controller.rb:7:in `show'
+  Rendering bundle/ruby/2.6.0/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering bundle/ruby/2.6.0/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered bundle/ruby/2.6.0/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (4.2ms)
+  Rendering bundle/ruby/2.6.0/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered bundle/ruby/2.6.0/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.6ms)
+  Rendering bundle/ruby/2.6.0/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered bundle/ruby/2.6.0/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.6ms)
+  Rendered bundle/ruby/2.6.0/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (25.8ms)
+Started GET "/routes" for 127.0.0.1 at 2020-02-01 10:47:54 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  
+ActionController::RoutingError (No route matches [GET] "/routes"):
+  
+bundle/ruby/2.6.0/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+bundle/ruby/2.6.0/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+bundle/ruby/2.6.0/gems/railties-5.0.7.1/lib/rails/rack/logger.rb:36:in `call_app'
+bundle/ruby/2.6.0/gems/railties-5.0.7.1/lib/rails/rack/logger.rb:24:in `block in call'
+bundle/ruby/2.6.0/gems/activesupport-5.0.7.1/lib/active_support/tagged_logging.rb:69:in `block in tagged'
+bundle/ruby/2.6.0/gems/activesupport-5.0.7.1/lib/active_support/tagged_logging.rb:26:in `tagged'
+bundle/ruby/2.6.0/gems/activesupport-5.0.7.1/lib/active_support/tagged_logging.rb:69:in `tagged'
+bundle/ruby/2.6.0/gems/railties-5.0.7.1/lib/rails/rack/logger.rb:24:in `call'
+bundle/ruby/2.6.0/gems/sprockets-rails-3.2.1/lib/sprockets/rails/quiet_assets.rb:13:in `call'
+bundle/ruby/2.6.0/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/request_id.rb:24:in `call'
+bundle/ruby/2.6.0/gems/rack-2.0.8/lib/rack/method_override.rb:22:in `call'
+bundle/ruby/2.6.0/gems/rack-2.0.8/lib/rack/runtime.rb:22:in `call'
+bundle/ruby/2.6.0/gems/activesupport-5.0.7.1/lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+bundle/ruby/2.6.0/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/executor.rb:12:in `call'
+bundle/ruby/2.6.0/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/static.rb:136:in `call'
+bundle/ruby/2.6.0/gems/rack-2.0.8/lib/rack/sendfile.rb:111:in `call'
+bundle/ruby/2.6.0/gems/railties-5.0.7.1/lib/rails/engine.rb:522:in `call'
+bundle/ruby/2.6.0/gems/rack-2.0.8/lib/rack/handler/webrick.rb:86:in `service'
+/usr/share/rvm/rubies/ruby-2.6.1/lib/ruby/2.6.0/webrick/httpserver.rb:140:in `service'
+/usr/share/rvm/rubies/ruby-2.6.1/lib/ruby/2.6.0/webrick/httpserver.rb:96:in `run'
+/usr/share/rvm/rubies/ruby-2.6.1/lib/ruby/2.6.0/webrick/server.rb:307:in `block in start_thread'
+  Rendering bundle/ruby/2.6.0/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering bundle/ruby/2.6.0/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered bundle/ruby/2.6.0/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (5.1ms)
+  Rendered collection of bundle/ruby/2.6.0/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb [2 times] (5.0ms)
+  Rendered bundle/ruby/2.6.0/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (15.6ms)
+  Rendering bundle/ruby/2.6.0/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered bundle/ruby/2.6.0/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (7.8ms)
+  Rendered bundle/ruby/2.6.0/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (77.5ms)
+  [1m[35m (107.4ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" varchar NOT NULL PRIMARY KEY, "value" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Started GET "/" for 127.0.0.1 at 2020-02-01 11:09:05 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by Rails::WelcomeController#index as HTML
+  Parameters: {"internal"=>true}
+  Rendering bundle/ruby/2.6.0/gems/railties-5.0.7.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered bundle/ruby/2.6.0/gems/railties-5.0.7.1/lib/rails/templates/rails/welcome/index.html.erb (5.6ms)
+Completed 200 OK in 24ms (Views: 12.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/index" for 127.0.0.1 at 2020-02-01 11:09:09 +0000
+  
+ActionController::RoutingError (No route matches [GET] "/index"):
+  
+bundle/ruby/2.6.0/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+bundle/ruby/2.6.0/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+bundle/ruby/2.6.0/gems/railties-5.0.7.1/lib/rails/rack/logger.rb:36:in `call_app'
+bundle/ruby/2.6.0/gems/railties-5.0.7.1/lib/rails/rack/logger.rb:24:in `block in call'
+bundle/ruby/2.6.0/gems/activesupport-5.0.7.1/lib/active_support/tagged_logging.rb:69:in `block in tagged'
+bundle/ruby/2.6.0/gems/activesupport-5.0.7.1/lib/active_support/tagged_logging.rb:26:in `tagged'
+bundle/ruby/2.6.0/gems/activesupport-5.0.7.1/lib/active_support/tagged_logging.rb:69:in `tagged'
+bundle/ruby/2.6.0/gems/railties-5.0.7.1/lib/rails/rack/logger.rb:24:in `call'
+bundle/ruby/2.6.0/gems/sprockets-rails-3.2.1/lib/sprockets/rails/quiet_assets.rb:13:in `call'
+bundle/ruby/2.6.0/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/request_id.rb:24:in `call'
+bundle/ruby/2.6.0/gems/rack-2.0.8/lib/rack/method_override.rb:22:in `call'
+bundle/ruby/2.6.0/gems/rack-2.0.8/lib/rack/runtime.rb:22:in `call'
+bundle/ruby/2.6.0/gems/activesupport-5.0.7.1/lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+bundle/ruby/2.6.0/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/executor.rb:12:in `call'
+bundle/ruby/2.6.0/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/static.rb:136:in `call'
+bundle/ruby/2.6.0/gems/rack-2.0.8/lib/rack/sendfile.rb:111:in `call'
+bundle/ruby/2.6.0/gems/railties-5.0.7.1/lib/rails/engine.rb:522:in `call'
+bundle/ruby/2.6.0/gems/rack-2.0.8/lib/rack/handler/webrick.rb:86:in `service'
+/usr/share/rvm/rubies/ruby-2.6.1/lib/ruby/2.6.0/webrick/httpserver.rb:140:in `service'
+/usr/share/rvm/rubies/ruby-2.6.1/lib/ruby/2.6.0/webrick/httpserver.rb:96:in `run'
+/usr/share/rvm/rubies/ruby-2.6.1/lib/ruby/2.6.0/webrick/server.rb:307:in `block in start_thread'
+  Rendering bundle/ruby/2.6.0/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering bundle/ruby/2.6.0/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered bundle/ruby/2.6.0/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (19.4ms)
+  Rendered collection of bundle/ruby/2.6.0/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb [2 times] (1.4ms)
+  Rendered bundle/ruby/2.6.0/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (11.5ms)
+  Rendering bundle/ruby/2.6.0/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered bundle/ruby/2.6.0/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.8ms)
+  Rendered bundle/ruby/2.6.0/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (60.9ms)
+Started GET "/posts/index" for 127.0.0.1 at 2020-02-01 11:09:17 +0000
+Processing by PostsController#show as HTML
+  Parameters: {"id"=>"index"}
+  [1m[36mPost Load (0.2ms)[0m  [1m[34mSELECT  "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT ?[0m  [["id", 0], ["LIMIT", 1]]
+Completed 404 Not Found in 6ms (ActiveRecord: 0.8ms)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Post with 'id'=index):
+  
+app/controllers/posts_controller.rb:7:in `show'
+  Rendering bundle/ruby/2.6.0/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering bundle/ruby/2.6.0/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered bundle/ruby/2.6.0/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (5.9ms)
+  Rendering bundle/ruby/2.6.0/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered bundle/ruby/2.6.0/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.7ms)
+  Rendering bundle/ruby/2.6.0/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered bundle/ruby/2.6.0/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered bundle/ruby/2.6.0/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (25.4ms)
+Started GET "/posts/1" for 127.0.0.1 at 2020-02-01 11:09:44 +0000
+Processing by PostsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT  "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+Completed 404 Not Found in 1ms (ActiveRecord: 0.1ms)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Post with 'id'=1):
+  
+app/controllers/posts_controller.rb:7:in `show'
+  Rendering bundle/ruby/2.6.0/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering bundle/ruby/2.6.0/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered bundle/ruby/2.6.0/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (2.8ms)
+  Rendering bundle/ruby/2.6.0/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered bundle/ruby/2.6.0/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.4ms)
+  Rendering bundle/ruby/2.6.0/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered bundle/ruby/2.6.0/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered bundle/ruby/2.6.0/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (35.4ms)
+  [1m[36mPost Load (1.4ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Started GET "/posts/1" for 127.0.0.1 at 2020-02-01 11:11:15 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PostsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT  "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+Completed 404 Not Found in 21ms (ActiveRecord: 2.2ms)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Post with 'id'=1):
+  
+app/controllers/posts_controller.rb:7:in `show'
+  Rendering bundle/ruby/2.6.0/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering bundle/ruby/2.6.0/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered bundle/ruby/2.6.0/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (4.8ms)
+  Rendering bundle/ruby/2.6.0/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered bundle/ruby/2.6.0/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.7ms)
+  Rendering bundle/ruby/2.6.0/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered bundle/ruby/2.6.0/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered bundle/ruby/2.6.0/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (27.5ms)
+Started GET "/posts/1" for 127.0.0.1 at 2020-02-01 11:11:16 +0000
+Processing by PostsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT  "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+Completed 404 Not Found in 1ms (ActiveRecord: 0.1ms)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Post with 'id'=1):
+  
+app/controllers/posts_controller.rb:7:in `show'
+  Rendering bundle/ruby/2.6.0/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering bundle/ruby/2.6.0/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered bundle/ruby/2.6.0/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.8ms)
+  Rendering bundle/ruby/2.6.0/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered bundle/ruby/2.6.0/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.6ms)
+  Rendering bundle/ruby/2.6.0/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered bundle/ruby/2.6.0/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered bundle/ruby/2.6.0/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (20.4ms)
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "posts" ("title", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "A lovely title"], ["description", "A superb description"], ["created_at", "2020-02-01 11:11:41.162587"], ["updated_at", "2020-02-01 11:11:41.162587"]]
+  [1m[35m (113.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mPost Load (1.4ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+Started GET "/posts/1" for 127.0.0.1 at 2020-02-01 11:12:12 +0000
+Started GET "/posts/1" for 127.0.0.1 at 2020-02-01 11:12:12 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PostsController#show as HTML
+Processing by PostsController#show as HTML
+  Parameters: {"id"=>"1"}
+  Parameters: {"id"=>"1"}
+  [1m[36mPost Load (0.2ms)[0m  [1m[34mSELECT  "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mPost Load (0.2ms)[0m  [1m[34mSELECT  "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering posts/show.html.erb within layouts/application
+  Rendering posts/show.html.erb within layouts/application
+  Rendered posts/show.html.erb within layouts/application (3.1ms)
+  Rendered posts/show.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 466ms (Views: 423.3ms | ActiveRecord: 0.8ms)
+
+
+Completed 200 OK in 466ms (Views: 425.3ms | ActiveRecord: 0.2ms)
+
+
